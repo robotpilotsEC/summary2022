@@ -1,0 +1,14 @@
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+rc_singlemotor_v2\stream_buffer.o: D:\software\ARM\ARMCC\Bin\..\include\stdint.h
+rc_singlemotor_v2\stream_buffer.o: D:\software\ARM\ARMCC\Bin\..\include\string.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+rc_singlemotor_v2\stream_buffer.o: D:\software\ARM\ARMCC\Bin\..\include\stddef.h
+rc_singlemotor_v2\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+rc_singlemotor_v2\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

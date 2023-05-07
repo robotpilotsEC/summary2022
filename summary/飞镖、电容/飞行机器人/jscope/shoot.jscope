@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\86135\Desktop\workspace\plane\rp2021_plane_hal_imu_pit+moto_yaw\jscope\7.17.jscope\unspecified" />
+            <ElfFile Name="C:\Users\86135\Desktop\workspace\plane\rp2021_plane_hal_imu_pit+moto_yaw\MDK-ARM\RP2021_Hal_Template\rp2021_plane_hal.axf" />
+            <DataFile Name="" />
+            <RawFile Name="..\4.jraw" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="last_speed" Address="0x20000B78" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="23" YMaxSampled="25" YAvgSampled="24" Offset="4" ShowInGraph="1" ACCoupling="1" YOffset="0" IsAutoConfig="0" YResolution="2" MaxValue="40" File="..\Application\ModuleLayer\fricwheel.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="time_err[0]" Address="0x20000B80" Type="uint" TypeID="8" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="26" YMaxSampled="354287" YAvgSampled="230" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="200000" MaxValue="770000" File="..\Application\ModuleLayer\fricwheel.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="single_err" Address="0x20000B95" Type="char" TypeID="10" Size="1" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-21" YMaxSampled="-18" YAvgSampled="-18" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="..\Application\ModuleLayer\fricwheel.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="burst_err" Address="0x20000B96" Type="char" TypeID="10" Size="1" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="13" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="20" MaxValue="40" File="..\Application\ModuleLayer\fricwheel.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="shoot_state" Address="0x20000B99" Type="uchar" TypeID="6" Size="1" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="14" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="..\Application\ModuleLayer\fricwheel.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_tplt_speed_measure" Address="0x20000A48" Type="float" TypeID="1" Size="4" GraphColorRed="205" GraphColorGreen="133" GraphColorBlue="63" YMinSampled="-5699" YMaxSampled="6207" YAvgSampled="-3" Offset="15" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\turnplate.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_pit_angle_measure" Address="0x20000710" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="19" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="2000000000" MaxValue="-2147483648" File="..\Application\ModuleLayer\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_pit_speed_measure" Address="0x200006D4" Type="float" TypeID="1" Size="4" GraphColorRed="205" GraphColorGreen="133" GraphColorBlue="63" YMinSampled="-324" YMaxSampled="212" YAvgSampled="0" Offset="23" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="2000000000" MaxValue="-2147483648" File="..\Application\ModuleLayer\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_yaw_angle_measure" Address="0x20000708" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="6007" YMaxSampled="6011" YAvgSampled="6008" Offset="27" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="js_yaw_speed_measure" Address="0x200006C8" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-159" YMaxSampled="119" YAvgSampled="0" Offset="31" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1000" MaxValue="2000" File="..\Application\ModuleLayer\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

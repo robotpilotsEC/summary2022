@@ -1,0 +1,10 @@
+rc_singlemotor_v2\arm_common_tables.o: ..\User\arm_math\arm_common_tables.c
+rc_singlemotor_v2\arm_common_tables.o: ..\User\arm_math\arm_math.h
+rc_singlemotor_v2\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cm4.h
+rc_singlemotor_v2\arm_common_tables.o: D:\software\ARM\ARMCC\Bin\..\include\stdint.h
+rc_singlemotor_v2\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_version.h
+rc_singlemotor_v2\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+rc_singlemotor_v2\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+rc_singlemotor_v2\arm_common_tables.o: D:\software\ARM\ARMCC\Bin\..\include\string.h
+rc_singlemotor_v2\arm_common_tables.o: D:\software\ARM\ARMCC\Bin\..\include\math.h
+rc_singlemotor_v2\arm_common_tables.o: ..\User\arm_math\arm_common_tables.h

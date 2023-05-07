@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}\\..\\Core\\Inc",
+                "${workspaceFolder}\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
+                "${workspaceFolder}\\..\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
+                "${workspaceFolder}\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
+                "${workspaceFolder}\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
+                "${workspaceFolder}\\..\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
+                "${workspaceFolder}\\..\\Drivers\\CMSIS\\Include",
+                "${workspaceFolder}\\..\\Drivers\\CMSIS\\DSP\\Include",
+                "${workspaceFolder}\\..\\Application\\DriverLayer",
+                "${workspaceFolder}\\..\\Application\\DeviceLayer\\Imu\\eMPL",
+                "${workspaceFolder}\\..\\Application\\DeviceLayer\\Imu",
+                "${workspaceFolder}\\..\\Application\\DeviceLayer\\Motor",
+                "${workspaceFolder}\\..\\Application\\DeviceLayer\\Sensor",
+                "${workspaceFolder}\\..\\Application\\DeviceLayer",
+                "${workspaceFolder}\\..\\Application\\ModuleLayer",
+                "${workspaceFolder}\\..\\Application\\TaskLayer",
+                "${workspaceFolder}\\..\\Application\\AlgorithmLayer",
+                "${workspaceFolder}\\..\\Application\\ConfigLayer",
+                "${workspaceFolder}\\..\\Application\\PotocolLayer",
+                "${workspaceFolder}\\..\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2",
+                "${workspaceFolder}\\.cmsis\\include",
+                "${workspaceFolder}\\RTE\\_rp2021_plane_hal",
+                "${workspaceFolder}\\.eide\\deps",
+                "D:\\software\\ARM\\ARMCC\\include",
+                "D:\\software\\ARM\\ARMCC\\include\\rw"
+            ],
+            "defines": [
+                "${default}",
+                "__VSCODE_CPPTOOL",
+                "USE_HAL_DRIVER",
+                "STM32F407xx",
+                "__CC_ARM",
+                "ARM_MATH_CM4",
+                "__TARGET_FPU_VFP",
+                "__FPU_PRESENT=1U"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                ".\\..\\..\\..\\..\\.vscode\\extensions\\cl.eide-2.14.0\\bin\\include\\internal_headers\\armcc_intr.h"
+            ],
+            "configurationProvider": "cl.eide"
+        }
+    ],
+    "version": 4
+}
